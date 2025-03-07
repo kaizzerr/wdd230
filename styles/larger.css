@@ -1,0 +1,32 @@
+@media(min-width: 840px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: auto;
+    }
+}
+
+@media(min-width: 1200px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: auto;
+    }
+}
+
+@media(min-width: 840px) {
+
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 28rem;
+        column-gap: 5px;
+    }
+
+    .card section{
+        box-shadow: 3px 3px 3px 3px;
+    }
+}
