@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Merriweather', sans-serif;
+    background-color: #420C09;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    text-align: center;
+    padding: 10px;
+}
+
+main section p {
+    padding: 10px;
+}
+
+footer {
+    background-color: #36454F;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
