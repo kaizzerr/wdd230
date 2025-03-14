@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/homePage.js" defer></script>
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Kaizzer Gatan - WDD 230 - Web Frontend Development" />
     <meta property="og:type" content="website" />
@@ -19,11 +19,16 @@
     <meta property="og:image" content="kaizzerr.github.io/wdd230/" />
 </head>
 
+<div id="mode">
+    🌑
+</div>
+
 <body>
     <header>
         <img src="images/kaizzer.jpg" alt="Kaizzer Gatan">
         <span>Kaizzer Gatan</span>
-        <nav>
+        <button class="hamburger" aria-label="Burger for navigation"></button>
+        <nav class="burger">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="week01/chamber-site-plan.html">Chamber</a></li>

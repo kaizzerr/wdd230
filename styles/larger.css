@@ -6,6 +6,10 @@
     nav ul li {
         flex: auto;
     }
+
+    .hamburger {
+        display: none;
+    }
 }
 
 @media(min-width: 1200px) {
@@ -15,6 +19,10 @@
 
     nav ul li {
         flex: auto;
+    }
+
+    .hamburger {
+        display: none;
     }
 }
 
@@ -28,5 +36,9 @@
 
     .card section{
         box-shadow: 3px 3px 3px 3px;
+    }
+
+    .hamburger {
+        display: none;
     }
 }

@@ -33,7 +33,6 @@ header img, header span {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
     background-color: #04A2D7;
     padding: 5px;
 }
@@ -61,6 +60,71 @@ main h1 {
     border-bottom: 1px solid #151e3d;
 }
 
+#mode {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.burger {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.burger a {
+    color: white;
+    padding: 8px;
+}
+
+.burger a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .burger {
+        display: none;
+        width: 100%;
+    }
+
+    .burger.open {
+        display: block;
+    }
+
+    .hamburger::before {
+        content: "☰";
+    }
+
+    .hamburger.open::before {
+        content: "✖";
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .hamburger.open {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
 .card {
     margin: 5px;
 }
@@ -68,7 +132,7 @@ main h1 {
 .card section {
     border: 1px solid black;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: #eee;
     margin: 1rem;
     overflow: hidden;
 }
