@@ -1,0 +1,143 @@
+@media(min-width: 800px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 28rem;
+        column-gap: 5px;
+    }
+
+    .cards section {
+        box-shadow: 3px 3px 3px 3px;
+    }
+
+    .company-card {
+        grid-column: span 3;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hero .large {
+        display: none;
+    }
+
+    .hero .medium {
+        display: block;
+    }
+
+    .hero .small {
+        display: none;
+    }
+
+    footer .content-footer p {
+        border-right-style: solid;
+    }
+
+    footer .content-footer p:last-child {
+        border-right: none;
+    }
+
+    footer .content-footer {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .content-footer {
+        text-align: center;
+    }
+
+    .info-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5px;
+    }   
+
+    .sub-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+@media(min-width: 1200px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hero .large {
+        display: block;
+    }
+
+    .hero .medium {
+        display: none;
+    }
+
+    .hero .small {
+        display: none;
+    }
+
+    footer .content-footer p {
+        border-right-style: solid;
+        margin: 0;
+        padding: 5px 15px;
+    }
+
+    footer .content-footer p:last-child {
+        border-right: none;
+    }
+
+    footer .content-footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .content-footer {
+    text-align: center;
+    }
+
+    .info-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5px;
+    }
+
+    .sub-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
