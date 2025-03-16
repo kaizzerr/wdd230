@@ -10,6 +10,20 @@
     .hamburger {
         display: none;
     }
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 28rem;
+        column-gap: 5px;
+    }
+
+    .card section {
+        box-shadow: 3px 3px 3px 3px;
+    }
+
+    .hamburger {
+        display: none;
+    }
 }
 
 @media(min-width: 1200px) {
@@ -19,23 +33,6 @@
 
     nav ul li {
         flex: auto;
-    }
-
-    .hamburger {
-        display: none;
-    }
-}
-
-@media(min-width: 840px) {
-
-    .card{
-        display: grid;
-        grid-template-columns: 1fr 28rem;
-        column-gap: 5px;
-    }
-
-    .card section{
-        box-shadow: 3px 3px 3px 3px;
     }
 
     .hamburger {
