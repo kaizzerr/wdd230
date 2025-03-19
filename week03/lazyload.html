@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaizzer Gatan - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Lazy Load">
+    <meta name="author" content="Kaizzer Gatan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Demonstration</h1>
+    </header>
+    
+    <main>
+        <picture>
+            <img src="images/calgary-temple.webp" alt="Calgary Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/cardston-temple.webp" alt="Cardston Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/edmonton-temple.webp" alt="Edmonton Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/halifax-temple.webp" alt="Halifax Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/montreal-temple.webp" alt="Montreal Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/regina-temple.webp" alt="Regina Temple" loading="lazy">
+        </picture>
+    </main>
+
+
+    <footer>
+        <p>©<span id="currentyear"></span> ❤️ Kaizzer Gatan ❤️ Alberta, Canada</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
