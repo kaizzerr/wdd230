@@ -21,8 +21,26 @@
         box-shadow: 3px 3px 3px 3px;
     }
 
-    .hamburger {
-        display: none;
+    .hero img {
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .herolabel {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        background: radial-gradient(#63c5da, skyblue);
+        border: 1px solid rgba(0, 0, 0, .75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+    }
+
+    .map {
+        width: 70%;
+        padding-bottom: 30%;
     }
 }
 
@@ -37,5 +55,27 @@
 
     .hamburger {
         display: none;
+    }
+
+    .hero img {
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .herolabel {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        background: radial-gradient(#63c5da, skyblue);
+        border: 1px solid rgba(0, 0, 0, .75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+    }
+
+    .map {
+        width: 70%;
+        padding-bottom: 30%;
     }
 }

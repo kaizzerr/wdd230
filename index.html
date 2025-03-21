@@ -41,14 +41,27 @@
 
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
+        <div class="hero">
+            <picture>
+                <source srcset="images/calgary-temple-hero-small.webp" media="(max-width: 600px)">
+                <source srcset="images/calgary-temple-hero-medium.webp" media="(max-width: 1200px)">
+                <img src="images/calgary-temple-hero-large.webp" alt="Calgary Temple Hero Large">
+            </picture>
+        </div>
+
+        <div class="herolabel">
+            <p>Calgary, Alberta Temple</p>
+        </div>
 
         <div class="card">
             <section class="card1">
                 <h2>Learning Activities</h2>
                 <ul>
-                    <li>Week 01: <a href="week01/media-query.html">Media Query</a></li>
+                    <li>Week 01: <a href="week01/holygrail.html">Grail</a> | <a href="week01/media-query.html">Media Query</a></li>
                     <li>Week 02: <a href="week02/design.html">Design</a></li>
-                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a></li>
+                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> |
+                    <a href="week03/lazyload.html">LazyLoad</a> |
+                    <a href="week03/bom.html">localStorage</a></li>
                     <li>Week 04: <a href=""></a></li>
                     <li>Week 05: <a href=""></a></li>
                     <li>Week 06: <a href=""></a></li>
@@ -59,9 +72,13 @@
                 <h2>Information</h2>
                     <p>Alberta, Canada</p>
                     <p>-2°C</p>
-                    <p>Page Visits: 10</p>
+                    <p>Page Visit Count: <span id="pageVisits"></span></p>
             </section>
-        </div>  
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d177103.9263563247!2d-114.08572180333955!3d51.055021557839936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1742437372780!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> ❤️ Kaizzer Gatan ❤️ Alberta, Canada</p>

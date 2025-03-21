@@ -40,3 +40,9 @@ modeButton.addEventListener("click", () => {
         modeButton.textContent = "🌑";
     }
 });
+
+let pageVisits = parseInt(localStorage.getItem("pageVisits")) || 0;
+pageVisits++;
+localStorage.setItem("pageVisits", pageVisits);
+
+document.getElementById("pageVisits").textContent = pageVisits;
