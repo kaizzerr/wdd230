@@ -174,8 +174,7 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
-.cards section h2,
-.cards section p {
+.cards section h2, .cards section p {
     padding: 5px;
 }
 
@@ -188,4 +187,54 @@ footer {
 
 footer p {
     padding: 3px;
+}
+
+/* discover.html */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.sidebar {
+    padding: 15px;
+}
+
+.sidebar-section {
+    list-style: none;
+}
+
+.sidebar-section h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sidebar-section p {
+    margin-bottom: 8px;
+}
+
+.sidebar-welcome, .sidebar-intro, .sidebar-population, .sidebar-events, .sidebar-demo {
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-images img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.1);
 }

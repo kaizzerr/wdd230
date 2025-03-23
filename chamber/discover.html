@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaizzer Gatan - WDD 230 - Calgary Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Calgary Chamber of Commerce Home Page">
+    <meta name="author" content="Kaizzer Gatan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/chamberHome.js" defer></script>
+    <link rel="icon" href="/favicon.ico">
+    <meta property="og:title" content="Kaizzer Gatan - WDD 230 - Calgary Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kaizzerr.github.io/wdd230/chamber/index.html" />
+    <meta property="og:image" content="https://cdn.sanity.io/images/st5jjmvx/production/eb2c3cacc3318171004d5115bbb45f1ea970032f-2400x1078.jpg?w=1920&q=77&fit=max&auto=format" />
+</head>
+
+<body>
+    <header>
+        <h1>Calgary Chamber of Commerce</h1>
+        <button class="hamburger" aria-label="Burger for navigation"></button>
+        <nav class="burger">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discovery</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <section class="sidebar-welcome">
+                <h2>Welcome to Calgary!</h2>
+                <p id="visit-message"></p>
+            </section>
+            <section class="sidebar-section">
+                <section class="sidebar-intro">
+                    <h3>Demographics & Events</h3>
+                    <p>Information about Calgary such as Population, Upcoming Events, and Demographics within this wonderful city!</p>
+                </section>
+                    <section class="sidebar-population">
+                    <h3>Population:</h3>
+                    <p>1.3 million</p>
+                    </section>
+                    <section class="sidebar-events">
+                    <h3>Upcoming Events:</h3>
+                    <p>Calgary Stampede</p>
+                    </section>
+                    <section class="sidebar-demo">
+                    <h3>Demographic in Calgary</h3>
+                    <p>Home to over 1.6 million people, Calgary is the 4th largest city in Canada and has experienced the largest population
+                    growth among major cities in the country for the last ten years</p>
+                    </section>
+            </section>
+        </div>
+
+        <div class="gallery">
+            <h2>Points of Interest</h2>
+            <div class="gallery-images">
+                <img src="images/calgary-chinatown.webp" alt="Chinatown" class="lazy" loading="lazy" />
+                <img src="images/calgary-tower.webp" alt="Calgary Tower" class="lazy" loading="lazy" />
+                <img src="images/calgary-stampede.webp" alt="Calgary Stampede" class="lazy" loading="lazy" />
+                <img src="images/calgary-downtown.webp" alt="Downtown Calgary" class="lazy" loading="lazy" />
+                <img src="images/peace-bridge.webp" alt="Peace Bridge" class="lazy" loading="lazy" />
+                <img src="images/banff.webp" alt="Banff National Park" class="lazy" loading="lazy" />
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="info-footer">
+            <section class="main-info">
+                <h2>Calgary</h2>
+                <h3>Chamber of Commerce</h3>
+                <p>Ampersand East, 112 4 Ave SW Suite 410, Calgary, AB T2P 0H3</p>
+            </section>
+            <section class="sub-info">
+                <h2>403-750-0400</h2>
+                <p>reception@calgarychamber.com</p>
+            </section>
+        </div>
+        <div class="content-footer">
+            <p>©2024 Calgary Chamber</p>
+            <p>Kaizzer Gatan</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
