@@ -1,0 +1,27 @@
+@media(min-width: 840px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+@media(min-width: 1200px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

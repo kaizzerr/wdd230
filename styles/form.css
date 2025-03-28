@@ -1,0 +1,152 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --primary-color: #2fadd6;
+    --secondary-color: #04A2D7;
+    --button-padding: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #f4f4f9;
+}
+
+header {
+    align-items: center;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+    color: #333;
+}
+
+@media (max-width: 840px) {
+    .burger {
+        display: none;
+        width: 100%;
+    }
+
+    .burger.open {
+        display: block;
+    }
+
+    .hamburger::before {
+        content: "☰";
+    }
+
+    .hamburger.open::before {
+        content: "✖";
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .hamburger.open {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+main h1 {
+    margin: 10px;
+    justify-self: center;
+}
+
+form {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #546A76;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #304146;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #151e3d;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* record.html */
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    justify-self: center;
+    font-size: 30px;
+}
+
+main p {
+    justify-self: center;
+    font-size: 20px;
+    padding: 10px;
+}
