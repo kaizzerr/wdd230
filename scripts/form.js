@@ -10,12 +10,12 @@ hamburger.addEventListener('click', () => {
     burger.classList.toggle('open');
 });
 
-const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("r");
+const ratingvalue = document.getElementById("ratingvalue");
+const rating = document.getElementById("r");
 
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
+rating.addEventListener('change', displayRatingValue);
+rating.addEventListener('input', displayRatingValue);
 
 function displayRatingValue() {
-    rangevalue.innerHTML = range.value;
+    ratingvalue.innerHTML = rating.value;
 }
