@@ -191,7 +191,7 @@ footer p {
 
 /* discover.html */
 
-main {
+.main-discovery {
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px;
@@ -237,4 +237,77 @@ main {
 
 .gallery-images img:hover {
     transform: scale(1.1);
+}
+
+/* join.html & thankyou.html */
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+form label {
+    font-size: 20px;
+    color: #333;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+}
+
+form button[type="submit"] {
+    background-color: #36454F;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 2rem;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #5C6D78;
+}
+
+.membership-benefits {
+    text-align: center;
+    padding: 20px;
+}
+
+.membership-benefits h3 {
+    font-size: 30px;
+}
+
+.membership-benefits ul {
+    list-style: none;
+}
+
+.membership-benefits li {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.thank-you {
+    text-align: center;
+    padding: 20px;
+}
+
+.thank-you h2 {
+    font-size: 30px;
+}
+
+.thank-you p {
+    font-size: 18px;
+    padding: 10px;
 }
