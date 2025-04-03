@@ -13,12 +13,12 @@
 
     .card {
         display: grid;
-        grid-template-columns: 1fr 28rem;
-        column-gap: 5px;
+        grid-template-columns: 1fr 30rem;
+        column-gap: 10px;
     }
 
-    .card section {
-        box-shadow: 3px 3px 3px 3px;
+    .card1, .card2 {
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .hero img {
@@ -72,6 +72,16 @@
         padding: 1.5rem;
         box-shadow: 0 0 3rem #fff;
         opacity: 0.75;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 30rem;
+        column-gap: 10px;
+    }
+
+    .card1, .card2 {
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .map {
