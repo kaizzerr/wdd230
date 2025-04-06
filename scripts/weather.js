@@ -27,7 +27,7 @@ function displayResults(data) {
 
     currentTemp.innerHTML = `${temp}&deg;C`;
     weatherDesc.textContent = description.charAt(0).toUpperCase() + description.slice(1);
-    location.textContent = city;
+    cityLocation.textContent = city;
 
     const iconUrl = `https://openweathermap.org/img/w/${iconCode}.png`;
     
