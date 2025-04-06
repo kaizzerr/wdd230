@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/links.js" defer></script>
     <script src="scripts/homePage.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Kaizzer Gatan - WDD 230 - Web Frontend Development" />
     <meta property="og:type" content="website" />
@@ -62,10 +63,13 @@
                 </ul>
             </section>
             <section class="card2">
-                <h2>Information</h2>
-                    <p>Alberta, Canada</p>
-                    <p>-2°C</p>
-                    <p>Page Visit Count: <span id="pageVisits"></span></p>
+                <h2>Weather</h2>
+                <p id="current-temp"></p>
+                <p id="weather-desc"></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="Weather icon" />
+                </figure>
+                <p>Page Visit Count: <span id="pageVisits"></span></p>
             </section>
         </div>
 

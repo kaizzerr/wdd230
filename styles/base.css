@@ -170,7 +170,7 @@ main h1 {
     margin-bottom: 10px;
 }
 
-.card2 p {
+.card2 p, .card2 figure {
     text-align: center;
 }
 
