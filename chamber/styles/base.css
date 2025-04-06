@@ -311,3 +311,70 @@ form button[type="submit"]:hover {
     font-size: 18px;
     padding: 10px;
 }
+
+/* directory.html */
+
+.menu {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.menu button {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    border: 1px black;
+}
+
+.grid section {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.grid img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+}
+
+.grid section>* {
+    margin: 0.1rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    min-height: 50px;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section h3 {
+    font-size: 1rem;
+}
+
+.list section:nth-child(even) {
+    background-color: #a7d5f4;
+}

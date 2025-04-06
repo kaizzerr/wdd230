@@ -1,0 +1,60 @@
+{
+    "members" : [
+        {
+            "company_name": "Scotiabank",
+            "address": "225 6 Ave SW, Calgary, AB T2P 1N2",
+            "phone_number": "(403) 221-6401",
+            "url": "https://www.scotiabank.com/ca/en/about.html",
+            "icon": "images/scotiabank.webp",
+            "membership_level": "Level Gold"
+        },
+        {
+            "company_name": "Canadian Tire",
+            "address": "205 Quarry Park Blvd, Calgary, AB T2C 5P9",
+            "phone_number": "(403) 592-8290",
+            "url": "https://corp.canadiantire.ca/English/about-us/default.aspx",
+            "icon": "images/canadian-tire.webp",
+            "membership_level": "Level Gold"
+        },
+        {
+            "company_name": "Telus",
+            "address": "120 7 Ave SW, Calgary, AB T2P 0W4",
+            "phone_number": "(514) 865-2787",
+            "url": "https://www.telus.com/en/?linkname=Personal&linktype=ge-supernav",
+            "icon": "images/telus.webp",
+            "membership_level": "Level Silver"
+        },
+        {
+            "company_name": "Manulife",
+            "address": "707 5 St SW, Calgary, AB T2P 0Y3",
+            "phone_number": "1-888-727-7766",
+            "url": "https://www.manulife.ca/personal.html",
+            "icon": "images/manulife.webp",
+            "membership_level": "Level Silver"
+        },
+        {
+            "company_name": "Cenovus Energy",
+            "address": "225 6 Ave SW, Calgary, AB T2P 0M5",
+            "phone_number": "(403) 766-2000",
+            "url": "https://www.cenovus.com/",
+            "icon": "images/cenovus.webp",
+            "membership_level": "Level Silver"
+        },
+        {
+            "company_name": "ATCO",
+            "address": "5302 Forand St SW, Calgary, AB T3E 8B4",
+            "phone_number": "(403) 292-7500",
+            "url": "https://www.atco.com/en-ca/about-us.html",
+            "icon": "images/atco.webp",
+            "membership_level": "Level Bronze"
+        },
+        {
+            "company_name": "Canadian Pacific Railway",
+            "address": "7550 Ogden Dale Rd SE, Calgary, AB T2C 4X9",
+            "phone_number": "+1 888-333-6370",
+            "url": "https://www.cpkcr.com/en",
+            "icon": "images/cpkc.webp",
+            "membership_level": "Level Bronze"
+        }
+    ]
+}
