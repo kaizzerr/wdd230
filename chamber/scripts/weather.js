@@ -24,7 +24,7 @@ async function apiFetch() {
 function displayResults(data) {
     const temp = data.main.temp;
     const description = data.weather[0].description;
-    const iconCode = data.weather[0].icon;
+    const iconCode = data.weather[0]?.icon || 'default-icon';
     const city = data.name;
 
     currentTemp.innerHTML = `${temp}&deg;C`;
