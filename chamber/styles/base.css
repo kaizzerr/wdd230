@@ -304,6 +304,11 @@ footer p {
 
 /* discover.html */
 
+.directory-title {
+    text-align: center;
+    padding: 20px;
+}
+
 .main-discovery {
     display: grid;
     grid-template-columns: 1fr;
