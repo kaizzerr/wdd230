@@ -119,6 +119,19 @@ nav ul li a:hover {
     }
 }
 
+.banner {
+    padding: 1rem;
+    background-color: #eee;
+    text-align: center;
+    font-weight: bold;
+}
+
+.close {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -167,8 +180,7 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
-.cards .events-card h3, 
-.cards .company-card h3 {
+.cards .events-card h3, .cards .company-card h3 {
     padding: 5px;
     font-weight: 500;
     font-size: 20px;
@@ -176,6 +188,102 @@ nav ul li a:hover {
 
 .cards section h2, .cards section p {
     padding: 5px;
+}
+
+.events-card p {
+    font-size: 18px;
+}
+
+.events-card a button {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #36454F;
+    color: white;
+    cursor: pointer;
+}
+
+.weather-card {
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+    font-size: 24px;
+}
+
+.weather-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.weather-card figure {
+    display: flex;
+    justify-content: center;
+}
+
+#weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.forecast-section {
+    padding: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.forecast-section img {
+    width: 30px;
+    height: 30px;
+}
+
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.spotlight-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.spotlight-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.spotlight-card img {
+    width: 200px;
+    height: auto;
+}
+.spotlight-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.spotlight-card p {
+    font-size: 1rem;
+    color: #555;
 }
 
 footer {

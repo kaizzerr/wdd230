@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/chamberHome.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="icon" href="/favicon.ico">
     <meta property="og:title" content="Kaizzer Gatan - WDD 230 - Calgary Chamber of Commerce" />
     <meta property="og:type" content="website" />
@@ -36,30 +37,54 @@
     </header>
 
     <main>
+        <div id="banner" class="banner">
+            <span>❗❗❗ We invite you to join us for the Calgary's Chamber of Commerce: Meet & Greet this Wednesday at 7:00 p.m.! ❗❗❗</span>
+            <button id="close" class="close">❌</button>
+        </div>
         <div class="hero">
             <img class="large" src="images/hero-image-large.webp" alt="Large Hero Image of Calgary">
             <img class="medium" src="images/hero-image-medium.webp" alt="Medium Hero Image of Calgary">
             <img class="small" src="images/hero-image-small.webp" alt="Small Hero Image of Calgary">
-            <button>Be a part of the Chamber</button>
+            <a href="join.html">
+                <button id="join">Be a part of the Chamber</button>
+            </a>
         </div>
             <div class="cards">
                 <section class="events-card">
                     <h2>Events</h2>
-                    <h3>Stampede</h3>
-                    <p>The Calgary Stampede is an annual rodeo, exhibition, and festival held every July in Calgary, Alberta, Canada.</p>
+                    <h3>Chamber Meet and Greet</h3>
+                    <p>Come with us to meet the members of Calgary's Chamber of Commerce! Ask them questions such as "How can small businesses
+                        grow into a big one?", "How can we establish connections with other businesses", etc. 
+                        (However, it is important to join the Calgary Chamber of Commerce first before joining the Meet and Greet)
+                        <a href="join.html">
+                            <button id="join">Join the Chamber now!</button>
+                        </a>
+                    </p>
+                    <h3>Calgary Stampede</h3>
+                    <p>The Calgary Stampede is an annual rodeo, exhibition, and festival held every July in Calgary, Alberta, Canada.
+                        The ten-day event, which bills itself as "The Greatest Outdoor Show on Earth", attracts over one million visitors per
+                        year and features one of the world's largest rodeos, a parade, midway, stage shows, concerts, agricultural competitions,
+                        chuckwagon racing, and First Nations exhibitions.
+                        <a href="discover.html">
+                            <button id="join">See what the Calgary Stampede is like!</button>
+                        </a>
                 </section>
 
                 <section class="weather-card">
                     <h2>Weather</h2>
-                    <p>-2°C</p>
-                    <p>Partly Cloudy</p>
+                    <p id="location"></p>
+                    <p id="current-temp"></p>
+                    <p id="weather-desc"></p>
+                    <figure>
+                        <img id="weather-icon" src="https://openweathermap.org/img/w/${iconCode}.png" alt="Weather icon">
+                    </figure>
+                    <h3>3 Hour Forecast</h3>
+                    <div id="forecast" class="forecast-grid"></div>
                 </section>
                 
                 <section class="company-card">
-                    <h2>Company</h2>
-                    <h3>Telus</h3>
-                    <p>(604) 697-8044</p>
-                    <p>http://www.telus.com/</p>
+                    <h2>Spotlight Members</h2>
+                    <div id="spotlight-ads" class="spotlight-grid"></div>
                 </section>
             </div>
     </main>
