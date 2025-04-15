@@ -153,15 +153,15 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.hero button {
-    text-align: center;
+.hero-join-button {
     position: absolute;
-    padding: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 7px;
-    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #36454F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid white;
 }
 
 .cards {
@@ -190,19 +190,24 @@ nav ul li a:hover {
     padding: 5px;
 }
 
+.events-card {
+    padding: 20px;
+}
+
 .events-card p {
     font-size: 18px;
 }
 
-.events-card a button {
-    display: block;
-    margin-top: 10px;
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
+.events-card .join-button, .events-card .discover-button {
     background-color: #36454F;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .weather-card {
