@@ -33,6 +33,7 @@ function displayResults(data) {
 
     const iconUrl = `https://openweathermap.org/img/w/${iconCode}.png`;
 
+    const weatherIcon = document.getElementById('weather-icon');
     weatherIcon.setAttribute('src', iconUrl);
     weatherIcon.setAttribute('alt', description);
 }
